@@ -1,0 +1,22 @@
+{
+  "name": "justube",
+  "version": "1.0.0",
+  "description": "Cloning Youtube With Vanilla And NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/justinjungkorea/justube.git"
+  },
+  "author": "justin dongwook jung",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/justinjungkorea/justube/issues"
+  },
+  "homepage": "https://github.com/justinjungkorea/justube#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
