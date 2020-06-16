@@ -1,2 +1,2 @@
-export const videoHome = (req, res) => res.send("Home");
-export const videoSearch = (req, res) => res.send("Search"); 
+export const home = (req, res) => res.send("Home");
+export const search = (req, res) => res.send("Search"); 
