@@ -1,21 +1,23 @@
-import express from "express"
-import logger from "morgan"
-import cookieParser from "cookie-parser"
 import bodyParser from "body-parser"
-import helmet from "helmet"
-import videoRouter from "./routers/videoRouter"
-import userRouter from "./routers/userRouter"
+import cookieParser from "cookie-parser"
+import express from "express"
 import globalRouter from "./routers/globalRouter"
+import helmet from "helmet"
+import { localMiddleware } from "./middlewares"
+import logger from "morgan"
 import routes from "./routes"
+import userRouter from "./routers/userRouter"
+import videoRouter from "./routers/videoRouter"
 
 const app = express();
 
+app.use(helmet());
 app.set("view engine", "pug")
 app.use(cookieParser());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: true}));
-app.use(helmet());
 app.use(logger("dev"));
+app.use(localMiddleware);
 
 app.use(routes.home, globalRouter);
 app.use(routes.users, userRouter);
