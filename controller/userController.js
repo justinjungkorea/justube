@@ -1,21 +1,21 @@
 export const join = (req, res) => {
-    res.render("Join");
+    res.render("join");
 }
 export const login = (req, res) => {
-    res.render("Login");
+    res.render("login");
 }
 export const logout = (req, res) => {
-    res.render("Logout");
+    res.render("logout");
 }
 export const users = (req, res) => {
-    res.render("Users");
+    res.render("users");
 }
 export const userDetail = (req, res) => {
-    res.render("User Detail");
+    res.render("userDetail");
 }
 export const editProfile = (req, res) => {
-    res.render("Edit Profile");
+    res.render("editProfile", { pageTitle: "Edit Profile" });
 }
 export const changePassword = (req, res) => {
-    res.render("Change Password");
+    res.render("changePassword");
 }
