@@ -4,7 +4,7 @@ export const videos = [
         title: 'Justin Jung',
         description: 'This is about myself',
         views: 23,
-        videoFile: 'https://archive.org/details/BigBunny_124',
+        videoFile: 'https://archive.org/download/BigBuckBunny_124/Content/big_buck_bunny_720p_surround.mp4',
         creator: {
             id: 7605,
             name: 'Justin',
@@ -16,7 +16,7 @@ export const videos = [
         title: 'Sam Lee',
         description: 'This is about myself',
         views: 23,
-        videoFile: 'https://archive.org/details/BigBunny_124',
+        videoFile: 'https://archive.org/download/BigBuckBunny_124/Content/big_buck_bunny_720p_surround.mp4',
         creator: {
             id: 7606,
             name: 'Sam',
@@ -28,7 +28,7 @@ export const videos = [
         title: 'John choi',
         description: 'This is about myself',
         views: 23,
-        videoFile: 'https://archive.org/details/BigBunny_124',
+        videoFile: 'https://archive.org/download/BigBuckBunny_124/Content/big_buck_bunny_720p_surround.mp4',
         creator: {
             id: 7607,
             name: 'John',
